@@ -217,6 +217,94 @@ body{
     margin-top: 50px;
 }
 
+/* Last Section */
+.photography{
+    width: 1130px;
+    margin-left: 170px;
+    margin-right: 100px;
+    margin-top: 100px; 
+}
+.photography h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.photography h1 span{
+    color: #E02C6D;;
+}
+.influencers{
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.second-part{
+    display: flex;
+    flex-grow: 1;
+    width:900px;
+    position: relative;
+    
+}
+.img-div{
+    margin-left: 30px;
+    width: 300px;
+}
+.second-part img{
+    width: 100%;
+    height: 330px;
+    transition: transform 2s ease;
+}
+.second-part img:hover{
+   
+    transform: scale(1.1);
+}
+
+.second-part:hover .img-heading{
+    display: block;
+}
+
+.best-influencers{
+   display: flex;
+}
+.first-part{
+    width: 200px;
+}
+.content{
+    height: 250px;
+}
+.content p{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+.img-heading{
+    background-color: rgba(240, 138, 138, 0.363);
+    position: absolute;
+    top: 0;
+    text-align:center ;
+    transform: scale(1.1);
+    display: none;
+}
+.img-div h2{
+    text-align: center;
+    padding:10px;
+   
+}
+ 
+.content p:hover{
+    text-shadow: 4px 4px 4px gray;
+}
+.content button{
+    margin-top: 16.1px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    margin: 10px 24px;
+    border-radius: 41px;
+    border-style: none;
+    width: 196px;
+    height: 44px;
+    margin: auto;
+}
 
 
 

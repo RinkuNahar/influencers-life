@@ -90,6 +90,7 @@ body{
     border-style: none;
     width: 196px;
     height: 44px;
+    cursor: pointer;
 }
 
 .fa-arrow-right{
@@ -224,6 +225,7 @@ body{
     margin-left: 170px;
     margin-right: 100px;
     margin-top: 100px; 
+    margin-bottom: 100px;
 }
 .photography h1{
     text-align: center;
@@ -255,7 +257,6 @@ body{
     transition: transform 2s ease;
 }
 .second-part img:hover{
-   
     transform: scale(1.1);
 }
 
@@ -311,23 +312,28 @@ body{
 }
 
 /* Footer */
-.footer-section{
+.footer{
     width: 100%;
+    background-color: rgb(5, 5, 66);
     height: 240px;
-    background-color: rgb(19, 19, 58);
-    margin-top: 100px;
 }
-
-.footer-heading{
-    width: 262px;
-    height: 139px;
-    margin:  auto;
-    margin-top: 50px;
+.footer h1{
+    color:white;
+    text-align: center;
+    padding-top:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.footer-heading h2{
-    margin-top: 50px;
+.footer p{
+    color: #D9DBE1;
+    text-align: center;
+}
+.footer-icon{
+    margin-left: 700px;
     color: white;
 }
-
+.icon-foot{
+    font-size: 32px;
+    margin-right: 16px;
+}
 
    
